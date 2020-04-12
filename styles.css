@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: black;
+}
+.display {
+    font-family: monospace;
+    font-size: 35px;
+    text-align: right;
+    background-color: black;
+    color: whitesmoke;
+    padding: 25px 5px;
+}
+
+.calc-row {
+    width: 100%;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+.calc-btn {
+    border-style: none;
+    width: 24.5%;
+    height: 100px;
+    background-color: rgb(216, 217, 219);
+    font-size: 40px;
+}
+
+.calc-btn:last-child{
+   background-color: rgb(223, 151, 76);
+   color: whitesmoke;
+}
+.double {
+    width: 49.7%;
+}
+.triple {
+    width: 74.8%;
+}
